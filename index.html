@@ -1,15 +1,23 @@
-<!DOCTYPE html>
-<html>
-  <head lang="en-us">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-		<meta name="description" content="Tech Blogger">
-    <title>Sumant Mann</title>
-    <link rel="icon" type="image/png" href="commonimages/favicon.ico">
-  </head>
-  <body>
-    <h1>Hello World</h1>
-        <a frameborder="0" data-theme="dark" data-layers="1,2,3,4" data-stack-embed="true" href="https://embed.stackshare.io/stacks/embed/5279a88772c7a6"/></a>    <script async src="https://cdn1.stackshare.io/javascripts/client-code.js" charset="utf-8"></script>
-  </body>
-</html>
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
