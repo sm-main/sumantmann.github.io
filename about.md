@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi, I’m Sumant Mann and I specialize in Web Development. My experience primarily lies with the use of Python and Django (a Python based web framework) as well as a wide-range of tools and technologies. My interest is being a full-stack developer being involved in everything from the overall direction of a project, to gather requirements, analyzing them, checking feasibility, and the actual implementation and deployment. I have experience with Python/Django (1.2 Years), and am currently involved with some projects based on it. I am also comfortable building user interfaces in the front-end using latest tools like Sass, Susy, Semantic-Ui, Gulp.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+You can find me on Github at:
+{% include icon-github.html username="sumantmann" %} /
+(https://github.com/sumantmann)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
